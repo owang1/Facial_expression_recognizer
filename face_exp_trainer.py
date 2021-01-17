@@ -63,7 +63,6 @@ for imagePath in paths.list_images(args["testing"]):
     x_test.append(gray)
     count += 1
 
-	# check how data is organized from keras. print out x_train
 x_test = np.asarray(x_test)
 y_test = np.asarray(y_test)
 
@@ -92,7 +91,7 @@ model.add(Flatten()) # Flattening the 2D arrays for fully connected layers
 model.add(Dense(128, activation='relu')) # the number of 128 neurons selected for this hidden layer is sort of arbitrary
 
 model.add(Dropout(0.2)) # Randomly drop 20% of connections when training (equivalent to an ensamble model learning)
-model.add(Dense(7,activation='softmax')) # 10 output neurons since we have 10 classes in this task
+model.add(Dense(7,activation='softmax')) # 7 output neurons since we have 7 classes in this task
 
 model.compile(optimizer='adam', 
               loss='sparse_categorical_crossentropy', 
