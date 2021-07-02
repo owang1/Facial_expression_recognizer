@@ -19,4 +19,4 @@ Computer vision final project: recognizing faces from 7 different expressions
 
 ## Overview of Project
 This was my semester project for Computer Vision CSE 40535 at Notre Dame. The goal of the project was to recognize a person's expression from 7 different categories: anger, disgust, fear, happiness, neutral, sadness, and surprise.
-For a demo of the project, click <a href="https://www.youtube.com/watch?v=ca6z_Kn5nM4">here</a>
+For a writeup of the project, click <a href="https://oliviaswang.weebly.com/facial-expression-recognizer">here</a>
